@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:layout_marginTop="16dp"
+    android:padding="8dp"
+    android:id="@+id/LLItem"
+    android:background="#fff">
+
+    <ImageView
+        android:id="@+id/imgBuku"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/nmBuku"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama Buku"
+            android:textSize="@dimen/hrfNama"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Asal        :"
+                android:textSize="@dimen/hrfStandar"
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/asalBuku"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Indonesia"
+                android:layout_marginLeft="8dp"
+                android:textSize="@dimen/hrfStandar"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Karakter :"
+                android:textSize="@dimen/hrfStandar"
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/karBuku"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Indonesia"
+                android:layout_marginLeft="5dp"
+                android:textSize="@dimen/hrfStandar"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
